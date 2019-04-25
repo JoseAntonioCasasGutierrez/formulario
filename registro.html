@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Registro - ServiPro</title>
+    <link rel="stylesheet" href="estilos.css">
+
+</head>
+<body>
+    <form action="registro_usuario.php" class="formulario" method="post">
+        <h3 class="h">Registro</h3>
+        <input type="text" class="formulario-input" name="nombre_usuario" required>
+        <label for="" class="formulario-label">Nombre Usuario</label>
+        <input type="email" class="formulario-input" name="usuario" required>
+        <label for="" class="formulario-label"> Email</label>
+        <input type="password" class="formulario-input" name="contrasena" required>
+        <label for="" class="formulario-label"> Password</label>
+        <input type="submit" class="formulario-submit" value="Guardar"> 
+        <p class="form-link">¿Ya tienes una cuenta? <a href="index.html">Login</a></p>
+
+    </form>
+
+    <script src="validar_login.js"></script>
+</body>
+</html>
